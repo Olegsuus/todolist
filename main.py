@@ -258,17 +258,3 @@ conn.close()
 
 
 
-# def update_name(conn, user_id, name, age):
-
-#     cursor = conn.cursor()
-#     cursor.execute("""UPDATE users SET name = ?, age= ?
-#     WHERE id = ?""", (name, age, user_id))
-
-#     conn.commit()
-
-
-# update_name(conn,
-#             user_id= input('У какого пользователя поменять имя ?: '),
-#             name = input('На какое имя будем менять ?: '), 
-#             age = input('Какой возраст у этого человека ?: ')
-#             )
